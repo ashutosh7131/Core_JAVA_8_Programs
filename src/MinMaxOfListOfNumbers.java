@@ -11,7 +11,7 @@ public class MinMaxOfListOfNumbers {
         Integer max_Value = numbs.stream().max(Integer::compare).orElse(null);
         System.out.println("Printing Max Number ::: " + max_Value);
         Integer min_Value = numbs.stream().min(Integer::compare).orElse(null);
-        System.out.println("Printing Max Number ::: " + min_Value);
+        System.out.println("Printing Min Number ::: " + min_Value);
 
     }
 }
